@@ -6,7 +6,8 @@ const entrySchema = new mongoose.Schema({
     // Example: name: String, age: Number, etc.
     // Adjust this based on your specific data structure
     fullName: String,
-    phone: String
+    phone: String,
+    count: Number,
 });
 
 const Entry = mongoose.model('data', entrySchema);
